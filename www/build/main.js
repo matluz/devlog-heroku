@@ -69,7 +69,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/erenes/Documents/Sublime_text/heroku/herokuApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Web\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n \n<ion-content padding>\n  <button ion-button full (click)="showPlatform()">Where am I running?</button>\n</ion-content>'/*ion-inline-end:"/home/erenes/Documents/Sublime_text/heroku/herokuApp/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/home/erenes/Documents/Sublime_text/heroku/herokuApp/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Ionic Web\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n \n<ion-content padding>\n  <button ion-button full (click)="showPlatform()">Qual é minha plataforma?</button>\n\n  <ion-row>\n    <ion-col text-center style="margin-top: 50px;">\n      <h4>Matheus Luz</h4>\n      <img src="../assets/imgs/unisuam.png" style="width: 10%">      \n    </ion-col>\n  </ion-row>\n  \n</ion-content>'/*ion-inline-end:"/home/erenes/Documents/Sublime_text/heroku/herokuApp/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */]])
     ], HomePage);
